@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input {
+  border: 0.25rem solid #5a5d6b;
+  border-radius: 99999rem;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #555555;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  color: #ff768e;
+  font-weight: 900;
+}
+
+body {
+  margin: 6.4375rem 9.75rem;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Rubik", sans-serif;
+}
+
+body .logo-container {
+  font-size: 3.875rem;
+  font-weight: 900;
+  margin-bottom: 9.5625rem;
+}
+
+body .logo-container .left {
+  color: #ff768e;
+}
+
+body .logo-container .right {
+  color: #555555;
+}
+
+body .main-section .main-section-header {
+  margin-bottom: 4.375rem;
+  font-size: 2.6875rem;
+  width: 40.25rem;
+  height: 6.375rem;
+}
+
+body .main-section .searchAddContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4.375rem;
+}
+
+body .main-section .searchAddContainer #search {
+  width: 29.25rem;
+  height: 7.5625rem;
+  font-size: 2.6875rem;
+  font-weight: bold;
+  padding-left: 2.3125rem;
+  position: relative;
+}
+
+body .main-section .searchAddContainer #search::-webkit-input-placeholder {
+  opacity: 28%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
+}
+
+body .main-section .searchAddContainer #search:-ms-input-placeholder {
+  opacity: 28%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-120%);
+}
+
+body .main-section .searchAddContainer #search::-ms-input-placeholder {
+  opacity: 28%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-120%);
+}
+
+body .main-section .searchAddContainer #search::placeholder {
+  opacity: 28%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container:hover {
+  background-color: #ff768e;
+  color: white;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container:hover .middleContainer .search-add-container-text {
+  color: white;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container:hover .middleContainer #data {
+  fill: white;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.125rem;
+  border: 0.25rem solid #5a5d6b;
+  border-radius: 99999rem;
+  height: 5rem;
+  width: 11rem;
+  position: relative;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container .middleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.125rem;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container .middleContainer .search-add-container-text {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #bdbfcd;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container .middleContainer #data {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  fill: #bdbfcd;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container ::-webkit-scrollbar {
+  width: 1px;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container .main-section-hint {
+  width: 29.25rem;
+  height: 12rem;
+  background-color: rgba(255, 255, 255, 0);
+  display: none;
+  position: absolute;
+  right: 15rem;
+  top: 5.5rem;
+  z-index: 9999;
+  padding-left: 2.3125rem;
+  padding-top: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  overflow-y: scroll;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container .main-section-hint ::-webkit-scrollbar {
+  width: 1px;
+}
+
+body .main-section .searchAddContainer .main-section-search-add-container .main-section-hint .hintLinksContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+body .main-section .main-section-selected-city {
+  width: 29.25rem;
+  height: 4.9375rem;
+  border: 0.25rem solid #5a5d6b;
+  border-radius: 50px 10px 50px 10px;
+  display: inline-block;
+  background-color: transparent;
+  position: relative;
+  top: 13rem;
+  left: 0.3rem;
+  font-size: 2.6875rem;
+  font-weight: bold;
+  padding-left: 2.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff768e;
+}
+
+body .side-menu {
+  position: relative;
+  left: 55%;
+  bottom: 28rem;
+}
+
+body .side-menu .menuContainer {
+  position: relative;
+  bottom: 50rem;
+  left: 16rem;
+}
+
+body .side-menu .menuContainer .side-menu-header {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+body .side-menu .menuContainer ::-webkit-scrollbar {
+  width: 1px;
+}
+
+body .side-menu .menuContainer .linksContainer {
+  width: 322px;
+  height: 437px;
+  overflow-y: scroll;
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  gap: 1rem;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  input {
+    border: 0.25rem solid #5a5d6b;
+    border-radius: 99999rem;
+  }
+  a:link, a:visited {
+    text-decoration: none;
+    color: #555555;
+  }
+  body {
+    margin: 2.9375rem 2.125rem;
+    height: 1600px;
+    overflow-y: scroll;
+    font-family: "Rubik", sans-serif;
+  }
+  body .logo-container {
+    font-size: 2.9375rem;
+    font-weight: 900;
+    margin-bottom: 5.5rem;
+    width: 100%;
+  }
+  body .logo-container .left {
+    color: #ff768e;
+  }
+  body .logo-container .right {
+    color: #555555;
+  }
+  body .main-section .main-section-header {
+    margin-bottom: 5.5rem;
+    font-size: 1.5625rem;
+    width: 19.6875rem;
+    height: 5.625rem;
+  }
+  body .main-section .searchAddContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.125rem;
+  }
+  body .main-section .searchAddContainer #search {
+    width: 13.0625rem;
+    height: 3.4375rem;
+    font-size: 1.3125rem;
+    font-weight: bold;
+    padding-left: 0.95rem;
+  }
+  body .main-section .searchAddContainer #search::-webkit-input-placeholder {
+    opacity: 28%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  body .main-section .searchAddContainer #search:-ms-input-placeholder {
+    opacity: 28%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%);
+  }
+  body .main-section .searchAddContainer #search::-ms-input-placeholder {
+    opacity: 28%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%);
+  }
+  body .main-section .searchAddContainer #search::placeholder {
+    opacity: 28%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  body .main-section .searchAddContainer .main-section-search-add-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.46875rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    border: 0.25rem solid #5a5d6b;
+    border-radius: 99999rem;
+    height: 3rem;
+    width: 5.9rem;
+    position: relative;
+    bottom: 2px;
+  }
+  body .main-section .searchAddContainer .main-section-search-add-container .middleContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.46875rem;
+  }
+  body .main-section .searchAddContainer .main-section-search-add-container .middleContainer .search-add-container-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #bdbfcd;
+    position: relative;
+    top: 2px;
+  }
+  body .main-section .searchAddContainer .main-section-search-add-container .middleContainer svg {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 3px;
+  }
+  body .main-section .searchAddContainer .main-section-search-add-container .middleContainer #data {
+    fill: #bdbfcd;
+  }
+  body .main-section .searchAddContainer .main-section-search-add-container ::-webkit-scrollbar {
+    width: 0px;
+  }
+  body .main-section .searchAddContainer .main-section-search-add-container .main-section-hint {
+    width: 13.0625rem;
+    height: 7rem;
+    background-color: rgba(255, 255, 255, 0.287);
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 6.6rem;
+    top: 3rem;
+    padding-left: 0.95rem;
+    padding-top: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+  body .main-section .main-section-selected-city {
+    width: 13.0625rem;
+    height: 3.4375rem;
+    border: 0.25rem solid #5a5d6b;
+    border-radius: 50px 10px 50px 10px;
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    top: 8.1rem;
+    left: 0.3rem;
+    font-size: 1.3125rem;
+    font-weight: bold;
+    padding-left: 0.95rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #ff768e;
+  }
+  body .side-menu {
+    position: relative;
+    left: -16rem;
+    top: 8rem;
+  }
+  body .side-menu .menuContainer {
+    position: relative;
+    bottom: 20rem;
+    left: 16rem;
+  }
+  body .side-menu .menuContainer .side-menu-header {
+    font-size: 65px;
+    font-weight: bold;
+  }
+  body .side-menu .menuContainer ::-webkit-scrollbar {
+    width: 1px;
+  }
+  body .side-menu .menuContainer .linksContainer {
+    width: 322px;
+    height: 437px;
+    overflow-y: scroll;
+    margin-top: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    gap: 1rem;
+    font-size: 32px;
+  }
+  body .side-menu .side-menu-svg {
+    height: 25rem;
+    position: relative;
+    left: -5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

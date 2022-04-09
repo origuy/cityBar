@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CityBar - the social city name database</title>
+		<link rel="stylesheet" href="style/style.css">
+		<script src="javascript/app.js" defer></script>
+	</head>
+	<body>
+		<nav class="logo-container">
+		<span class="left">City</span><span class="right">bar</span>
+		</nav>
+
+		<section class="main-section">
+
+				<div class="paraContainer">
+					<p class="main-section-header">
+						The social database, search and help out database grow
+					</p>
+				</div>
+				<div class="searchAddContainer">
+				<input
+					type="search"
+					name="search"
+					id="search"
+					placeholder="Search a City"
+					autocomplete="off"
+				/>
+
+			<div class="main-section-search-add-container">
+				<div class="middleContainer">
+					<div class="search-add-container-svg">
+						<svg
+							width="53"
+							height="53"
+							viewBox="0 0 29 29"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g id="database" clip-path="url(#clip0_8_51)">
+								<path
+									id="data"
+									d="M23.0166 4.08992H6.65695C6.01425 4.08992 5.4884 4.61577 5.4884 5.25847V8.76412C5.4884 9.40682 6.01425 9.93267 6.65695 9.93267H23.0166C23.6593 9.93267 24.1852 9.40682 24.1852 8.76412V5.25847C24.1852 4.61577 23.6593 4.08992 23.0166 4.08992ZM23.0166 11.1012H6.65695C6.01425 11.1012 5.4884 11.6271 5.4884 12.2698V15.7754C5.4884 16.4181 6.01425 16.944 6.65695 16.944H23.0166C23.6593 16.944 24.1852 16.4181 24.1852 15.7754V12.2698C24.1852 11.6271 23.6593 11.1012 23.0166 11.1012ZM23.0166 18.1125H6.65695C6.01425 18.1125 5.4884 18.6384 5.4884 19.2811V22.7867C5.4884 23.4294 6.01425 23.9553 6.65695 23.9553H23.0166C23.6593 23.9553 24.1852 23.4294 24.1852 22.7867V19.2811C24.1852 18.6384 23.6593 18.1125 23.0166 18.1125Z"
+									fill="#A7AABD"
+								/>
+								<path
+									id="Plus"
+									d="M23.0167 28.0452C26.2436 28.0452 28.8594 25.4293 28.8594 22.2024C28.8594 18.9756 26.2436 16.3597 23.0167 16.3597C19.7898 16.3597 17.174 18.9756 17.174 22.2024C17.174 25.4293 19.7898 28.0452 23.0167 28.0452Z"
+									fill="#43A047"
+								/>
+								<g id="plus">
+									<path
+										id="verticle"
+										d="M21.8481 18.6968H24.1852V25.7081H21.8481V18.6968Z"
+										fill="white"
+									/>
+									<path
+										id="horizental"
+										d="M19.511 21.0339H26.5223V23.371H19.511V21.0339Z"
+										fill="white"
+									/>
+								</g>
+							</g>
+							<defs>
+								<clipPath id="clip0_8_51">
+									<rect
+										width="28.0452"
+										height="28.0452"
+										fill="white"
+										transform="translate(0.814209)"
+									/>
+								</clipPath>
+							</defs>
+						</svg>
+					</div>
+					<span class="search-add-container-text">Add</span>
+				</div>
+				<div class="main-section-hint">
+					<div class="hintLinksContainer">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="main-section-selected-city"></div>
+		</section>
+
+		<aside class="side-menu">
+			<div class="side-menu-container">
+				<div class="side-menu-svg">
+					<svg
+						width="920"
+						height="920"
+						viewBox="0 0 920 920"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<g id="cities list">
+							<circle
+								id="circle"
+								cx="460"
+								cy="460"
+								r="460"
+								fill="#2C6FD1"
+								fill-opacity="0.24"
+							/>
+							<path
+								id="Polygon 3"
+								d="M209.134 198.546C214.577 203.99 212.087 213.284 204.651 215.277L158.643 227.605C151.207 229.597 144.403 222.793 146.395 215.357L158.723 169.349C160.716 161.913 170.01 159.423 175.454 164.866L209.134 198.546Z"
+								fill="#FF768E"
+								fill-opacity="0.24"
+							/>
+							<path
+								id="triangle3"
+								d="M593.75 550.684C593.75 542.986 602.083 538.175 608.75 542.024L650 565.84C656.667 569.689 656.667 579.311 650 583.16L608.75 606.976C602.083 610.825 593.75 606.014 593.75 598.316L593.75 550.684Z"
+								fill="#FF768E"
+								fill-opacity="0.24"
+							/>
+							<path
+								id="triangle2"
+								d="M624.75 220.684C624.75 212.986 633.083 208.175 639.75 212.024L681 235.84C687.667 239.689 687.667 249.311 681 253.16L639.75 276.976C633.083 280.825 624.75 276.014 624.75 268.316L624.75 220.684Z"
+								fill="#FF768E"
+								fill-opacity="0.24"
+							/>
+							<path
+								id="triangle1"
+								d="M143.547 570.866C148.99 565.423 158.284 567.913 160.277 575.349L172.605 621.357C174.597 628.793 167.793 635.597 160.357 633.605L114.349 621.277C106.913 619.284 104.423 609.99 109.866 604.546L143.547 570.866Z"
+								fill="#FF768E"
+								fill-opacity="0.24"
+							/>
+						</g>
+					</svg>
+				</div>
+
+					<div class="menuContainer">
+						<h2 class="side-menu-header">Our Cities</h2>
+						<div class="linksContainer">
+
+						</div>
+					</div>
+				</div>
+		</aside>
+	</body>
+</html>
