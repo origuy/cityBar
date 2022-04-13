@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot of the website](/Assets/desktop.jpg)
+![screenshot of the website](assets/Desktop.jpg)
 
 ### Links
 
