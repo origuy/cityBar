@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Live Site URL: [ Click to See the Site](https://firstsignuppageoriguy.netlify.app/) -->
+Live Site URL: [ Click to See the Site](https://unique-ori-guy-city-bar.netlify.app/) 
 
 ## My process
 
